@@ -56,6 +56,10 @@ class Owner
     self.dogs.collect { |dog| dog.owner = nil }
     self.cats.collect { |cat| cat.owner = nil }
   end
+  
+  def list_pets
+    
+  end
     
   
 end
